@@ -1,4 +1,4 @@
-<img width="622" height="428" alt="Screenshot 2026-04-29 132636" src="https://github.com/user-attachments/assets/8cf41a5d-1746-4e92-b5d0-b6fdc9eafd7a" /># InformationGathering
+# InformationGathering
 Information Gathering Techiques
 # NAME-SRILAKSHMI BH
 # REG.NO-212224100035
