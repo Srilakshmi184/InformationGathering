@@ -82,11 +82,14 @@ Host: example.com
 
 <img width="622" height="342" alt="Screenshot 2026-04-29 133446" src="https://github.com/user-attachments/assets/d8d50273-0a16-4efc-b014-d6ee6a85f5ec" />
 
+This is an Nmap network scan performed on the domain edurussia.ru using a Kali Linux terminal. The output lists several open ports, including 21 (FTP), 22 (SSH), and standard web ports like 80 and 443, indicating the services currently reachable on that server.
+
 ## Whatweb
 ### output
 
 <img width="631" height="240" alt="Screenshot 2026-04-29 133723" src="https://github.com/user-attachments/assets/ebebab12-45ab-4699-be95-91233dca0907" />
 
+This image shows the output of the WhatWeb tool, which identifies the various technologies powering the website edurussia.ru. It reveals that the site uses the Bitrix Site Manager CMS, runs on an nginx web server, and includes components like jQuery and Google Tag Manager.
 
 # Tracing the Location
 TCP Traceroute:
@@ -95,6 +98,7 @@ sudo traceroute -T www.google.com
 
 <img width="645" height="357" alt="Screenshot 2026-04-29 133613" src="https://github.com/user-attachments/assets/195cb149-67a9-4ce1-8d87-42f18259e4a9" />
 
+This image shows a traceroute command being run in Kali Linux to map the path data takes to reach edurussia.ru. The output displays the initial hop, but the subsequent asterisks indicate that the intermediate routers are likely blocking ICMP packets or timed out.
 
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
@@ -102,6 +106,7 @@ sudo traceroute -U www.google.com
 
 <img width="628" height="408" alt="Screenshot 2026-04-29 134033" src="https://github.com/user-attachments/assets/fc6a4b75-edd2-499d-a232-7eb0bf95c5c3" />
 
+This image shows a traceroute command using the -U flag, which specifically instructs the tool to use UDP packets for probing the network path. Despite switching protocols, the results remain the same: the intermediate routers are blocking the requests, leading to the repeated timeouts seen as asterisks.
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
