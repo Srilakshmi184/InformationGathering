@@ -33,6 +33,9 @@ http://www.whois.com/whois website to get detailed information about a domain na
 
 <img width="1912" height="1131" alt="Screenshot 2026-04-29 093220" src="https://github.com/user-attachments/assets/39b46b33-7054-4bb1-a34d-d8d27403b37d" />
 
+This image shows the domain details of edurussia.ru from WHOIS.
+It includes registration date, expiry date, and name servers.
+The domain is registered and verified under a Russian registrar.
 
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
@@ -40,7 +43,9 @@ ping command is available on Windows as well as on Linux OS. Following is the ex
 
 <img width="622" height="428" alt="Screenshot 2026-04-29 132636" src="https://github.com/user-attachments/assets/119f5d22-0d46-4bd4-8fa3-350ceeaa19f3" />
 
-
+This shows the ping results to the domain from a Kali Linux terminal.
+It confirms that the server is active and responding to requests.
+The response times vary, showing network latency between systems.
 
 ## Finding Hosting Company
 get further detail by using ip2location.com website.
@@ -48,6 +53,9 @@ get further detail by using ip2location.com website.
 
 <img width="1916" height="1010" alt="Screenshot 2026-04-29 095240" src="https://github.com/user-attachments/assets/c4c69f82-0965-4963-b08a-31e5d33eb04d" />
 
+This image shows the geolocation details of the IP address.
+The server is located in Russia, specifically in Rostov-na-Donu.
+It also indicates the use of a data center and DDoS protection service.
 
 
 ## History of the website:
@@ -56,7 +64,9 @@ https://web.archive.org/
 
 <img width="1919" height="1144" alt="Screenshot 2026-04-29 093439" src="https://github.com/user-attachments/assets/0b4503a5-4d18-419c-bc0b-1d325fe30a70" />
 
-
+This shows archived records of the website from the Wayback Machine.
+It displays how many times the site was saved and the types of files captured.
+Most of the content is in HTML format, indicating regular web pages.
 
 # Webserver Fingerprinting:
 
