@@ -103,11 +103,6 @@ This image shows a traceroute command using the -U flag, which specifically inst
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
-## output
-
-
-
-
 
 
 ## RESULT:
