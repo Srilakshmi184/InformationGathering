@@ -70,13 +70,6 @@ Most of the content is in HTML format, indicating regular web pages.
 
 # Webserver Fingerprinting:
 
-## Netcat:
-sudo nc example.com 80
-GET / HTTP/1.1
-Host: example.com
-
-
-
 ## nmap:
 ###output
 
